@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    background-color:rgb(42, 39, 39) ;
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+}
+#mainlist{
+    display: flex;
+}
+.li{
+    background-color: rgb(50, 47, 47);
+    color: orangered;
+    font-size: 30px;
+    list-style: none;
+    padding: 10px;
+    padding-top: 20px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+.li:hover{
+    background-color: rgb(0, 0, 20);
+}
+#sublist{
+    list-style: none;
+    display: none;
+}
+.sli{
+    background-color: slategray;
+    width: 180px;
+    padding: 20px;
+    position: relative;
+    right: 10px;
+    top: 25px;
+    text-align: left;
+    font-size: 22px;
+}
+.sli:hover{
+    background-color: rgb(36, 1, 62);
+}
+#hov:hover #sublist{
+    display: block;
+}
